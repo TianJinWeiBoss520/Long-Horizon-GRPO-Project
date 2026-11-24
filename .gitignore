@@ -1,0 +1,27 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Downloaded models, checkpoints, caches and generated outputs
+pretrained/
+saved/
+output/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.safetensors
+*.pt
+*.pth
+*.gguf
+*.log
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

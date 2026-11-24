@@ -1,0 +1,40 @@
+{
+  "input": "data/clean/train.jsonl",
+  "output": "data/clean/train_clean_openai_toolcalls.jsonl",
+  "filter_mode": "strict_practical",
+  "fail_patterns": [
+    "Error fetching",
+    "Failed to read page",
+    "could not be accessed",
+    "no information is available",
+    "No results found for query",
+    "Timeout or error",
+    "Invalid request format"
+  ],
+  "stats": {
+    "input_rows": 1698,
+    "converted_rows": 1698,
+    "filtered_rows": 555,
+    "kept_rows": 1143,
+    "assistant_tool_call_messages": 6902,
+    "tool_calls_total": 11189,
+    "tool_messages_total": 11189,
+    "deleted_assistant_chatter": 301,
+    "tool_call_parse_fail_blocks": 0,
+    "orphan_tool_responses": 0,
+    "missing_tool_responses": 0,
+    "system_normalized": 1698,
+    "rows_with_empty_tool_response": 0,
+    "rows_with_failed_tool_response": 552,
+    "rows_with_invalid_final_answer": 4
+  },
+  "validation": {
+    "rows": 1143,
+    "system_missing": 0,
+    "assistant_residual_tool_call_tags": 3824,
+    "rows_call_tool_mismatch": 0,
+    "rows_no_answer": 0,
+    "tool_messages_missing_tool_call_id": 0,
+    "tool_messages_without_prior_call": 0
+  }
+}

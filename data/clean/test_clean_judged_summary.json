@@ -1,0 +1,20 @@
+{
+  "total": 85,
+  "success": 85,
+  "failed": 0,
+  "overall_avg": 8.0824,
+  "verdict_distribution": {
+    "pass": 63,
+    "borderline": 19,
+    "fail": 5
+  },
+  "dimension_avg": {
+    "task_relevance": 4.5529,
+    "completeness": 4.2353,
+    "factual_safety": 3.6706,
+    "tool_use_reasonableness": 4.1412,
+    "format_quality": 2.5647
+  },
+  "filtered_kept": 80,
+  "filtered_output": "data/clean/test_clean_judged_filtered.jsonl"
+}

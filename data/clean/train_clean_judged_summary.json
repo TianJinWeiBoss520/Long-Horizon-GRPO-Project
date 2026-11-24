@@ -1,0 +1,22 @@
+{
+  "total": 1143,
+  "success": 1137,
+  "failed": 6,
+  "overall_avg": 8.2646,
+  "verdict_distribution": {
+    "pass": 904,
+    "borderline": 177,
+    "fail": 48,
+    "unknown": 7,
+    "Standard": 1
+  },
+  "dimension_avg": {
+    "task_relevance": 4.584,
+    "completeness": 4.3536,
+    "factual_safety": 3.7379,
+    "tool_use_reasonableness": 4.438,
+    "format_quality": 2.3316
+  },
+  "filtered_kept": 1081,
+  "filtered_output": "data/clean/train_clean_judged_filtered.jsonl"
+}
