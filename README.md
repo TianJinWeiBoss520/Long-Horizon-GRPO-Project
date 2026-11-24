@@ -1,4 +1,6 @@
-# 基于端到端 Agentic RL 构建出行规划场景下的 Long-Horizon Agent
+# Long-Horizon GRPO Project
+
+基于端到端 Agentic RL 构建出行规划场景下的 Long-Horizon Agent。
 
 基于 Qwen3-4B-Instruct-2507 构建多轮出行规划 Agent，使用工具查询地点、路线、天气、网页和交通信息，并通过 SFT 冷启动与 GRPO 后训练研究长程工具使用。
 
